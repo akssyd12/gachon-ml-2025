@@ -1,0 +1,15 @@
+# requirements.txt
+# FastAPI 기반 웹 프레임워크
+fastapi
+
+# ASGI 서버 (FastAPI 실행용)
+uvicorn
+
+# Redis 클라이언트 (세션 저장소)
+redis
+
+# MariaDB/MySQL 연결용
+pymysql
+
+# HTML form 데이터 파싱용 (await request.form() 사용할 때 필수)
+python-multipart
